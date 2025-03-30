@@ -19,3 +19,5 @@ ax.set_ylabel('Y-axis')
 
 # 그래프 출력
 plt.show()
+
+# https://share.note.sx/files/pn/pntl6ki8n3osn2cb1jbg.png
