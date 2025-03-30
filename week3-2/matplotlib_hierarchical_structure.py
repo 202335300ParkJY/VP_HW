@@ -12,3 +12,5 @@ print('ax.xaxis.axes:', ax.xaxis.axes)
 print('ax.yaxis.axes:', ax.yaxis.axes)
 print('ax.xaxis.figure:', ax.xaxis.figure)
 print('ax.yaxis.figure:', ax.yaxis.figure)
+
+# https://share.note.sx/files/ul/ul1db8cew8r49l6xlhwe.png
