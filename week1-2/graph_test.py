@@ -10,3 +10,5 @@ plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('simple plot')
 plt.show()
+
+# https://share.note.sx/files/wm/wm4qmq9z45b63mpjl6ld.png)
