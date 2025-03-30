@@ -37,3 +37,5 @@ if __name__ == "__main__":
     window = MW()
     window.show() #중요
     app.exec()
+
+# https://share.note.sx/files/ys/ysudiqsx9cj25akonmkj.png
