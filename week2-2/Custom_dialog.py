@@ -36,3 +36,5 @@ if __name__ == "__main__":
     window = CustomDlg()
     window.show()
     app.exec()
+
+# https://share.note.sx/files/ee/eezjicpj4aiowcermpn7.png
