@@ -50,3 +50,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MW()
     sys.exit(app.exec())
+
+# https://share.note.sx/files/c1/c1ey1m4cberc4vzgaikl.png
