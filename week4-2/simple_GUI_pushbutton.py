@@ -6,8 +6,7 @@ PYSIDE6_MODE = True
 PYQT_MODE = False
 
 try:
-    from PySide6.QtWidgets import (QApplication, QWidget, 
-                                QLabel, QPushButton)
+    from PySide6.QtWidgets import (QApplication, QWidget, QLabel, QPushButton)
     from PySide6.QtGui import QFont,QIcon
     from PySide6.QtCore import Qt,QSize
 except Exception as e:
