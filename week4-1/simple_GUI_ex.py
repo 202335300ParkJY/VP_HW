@@ -1,7 +1,5 @@
-# labels.py
-
-# ================================================
-# Import necessary modules.
+# juy02_labels.py
+# -------------------------------------------------
 import sys, os
 import traceback
 
@@ -26,8 +24,7 @@ except Exception as e:
         traceback.print_exc()
     print("Can't import PyQt6 modules!")
 
-# ================================================
-# 주요 클래스
+# -------------------------------------------------
 class MW(QWidget):
 
     def __init__(self):
@@ -35,7 +32,6 @@ class MW(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        """Set up the appliation's GUI"""
         self.setGeometry(300,300,350,300)
         self.setFixedSize(350,300)
         self.setWindowTitle('QLabel Example')
@@ -43,14 +39,11 @@ class MW(QWidget):
         self.show()
 
     def setup_main_wnd(self):
-        """Set up the Main Window"""
-
         # hello_label = QLabel('Hello, World and Qt!',self) # 아래 두라인과 동일한 수행.
         hello_label = QLabel(self)
         hello_label.setText('Hello, World and Qt!! juy02 ')
         hello_label.setFont(QFont('Arial',15))
-
-        # 아래 두 줄을 주석해제하여 동작을 확인해 볼것.
+        
         # hello_label.setAlignment(Qt.AlignmentFlag.AlignCenter) 
         # hello_label.setStyleSheet("background-color: yellow")
         hello_label.move(10,10)
