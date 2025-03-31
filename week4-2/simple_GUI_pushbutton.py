@@ -96,4 +96,4 @@ if __name__ == '__main__':
     wnd = MW() 
     sys.exit(app.exec()) 
 
-# https://share.note.sx/files/9s/9sremud5zs9wfpk4bnz3.png
+# https://share.note.sx/files/37/37dss8w5ih9ix41c26ku.png
